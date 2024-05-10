@@ -3,7 +3,7 @@
 $servername = "mysql-33bcb034-chungacc145-ab26.l.aivencloud.com";
 $username = "avnadmin";
 $password = "AVNS_uRl7aY2K7mQJ29CAcDy";
-$database = "QUANLYSACdefaultdbH";
+$database = "defaultdb";
 $port = 10050;
 
 try {
