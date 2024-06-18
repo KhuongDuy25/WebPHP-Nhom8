@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #474646;
+}
+#header{
+    background-image: url(../img/nhung-hinh-anh-dep-ve-ly-cafe_110732299.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   display: flex;
+   flex-direction: column;
+}
+.header{
+    
+    height: 50px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: rgb(183, 247, 225); */
+    backdrop-filter: blur(20px);
+   
+}
+.lt{
+    padding-left: 10px;
+}
+.logo{
+    display: flex;
+}
+
+.letter{
+    transition: 0.2s;
+    transform: translateX(0);
+    cursor: grab;
+}
+.letter:hover{
+    transform: translateY(-0.5rem);  
+}
+.logo .letter{
+    color: #474646;
+    font-size: 30px;
+    background: -webkit-linear-gradient(120deg,hsl(318,94%,61%),hsl(239,69%,51%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header-mid .dm1{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+}
+.header-mid .dm1 li{
+    margin: 0 30px;
+    line-height: 50px;
+    background: -webkit-linear-gradient(120deg,hsl(318,94%,61%),hsl(239,69%,51%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.header-mid .dm1 li a:hover{
+color: rgb(141, 196, 22);
+ 
+}
+.header-mid .dm1 li:hover .dm2{
+   display: block;
+}
+.header-mid .dm2 {
+    position: absolute;
+    display: none;
+  
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header-right i{
+    margin: 0 10px;
+}
+.header-content{
+  margin-left: 100px;
+   display: flex;
+   flex-direction: column; 
+   margin-top: 350px;
+}
+.header-content h1{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.main-gioithieu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 100px;
+}
+.main-content{
+    flex: 1;
+    margin-right: 20px;
+}
+.main-content p{
+    color: black;
+}
+.main-content h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.main-img{
+    
+    flex: 1;
+}
+.main-img img{
+    height: 500px;
+    width: 100%;
+}
+.main-tintuc{
+    margin: 20px 100px;
+
+}
+
+
+
+
+
+#footer {
+    color: #fff;
+    margin-top: 30px;
+    height: 400px;
+    background-color: #474646;
+}
+.lienhe .lh1{
+    display: flex;
+    margin: 20px 100px;
+    /* align-items: center; */
+    justify-content: space-between;
+    
+}
+.lienhe li a:hover{
+    color: aquamarine;
+}
+.lienhe .lh1 > li{
+    margin-top: 30px;
+}
+.lienhe .lh1 a,p{
+    color: #fff;
+    margin-top: 10px;
+}
+.lienhe .lh1 .lh2 li{
+    margin-top: 10px;
+}
+#footer .mail{
+    margin-top: 10px;
+}
+#footer .mail input{
+    border: 1px solid #fff;
+    width: 200px;
+    height: 30px;
+}
+#footer .mail button{
+    border: 1px solid #fff;
+    width: 50px;
+    height: 30px;
+}
+#footer .diachi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 100px;
+    border-top: 1px solid #fff;
+}
+#footer .diachi-mid {
+    border-left: 1px solid #fff;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+#footer .diachi-mid i{
+    padding: 10px;
+    color: #fff;
+}
+#footer .diachi-mid .mid-comtent{
+    display: flex;
+}
+#footer .diachi-left{
+    margin: 50px;
+
+}
+.diachi-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.diachi-right .icon{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    
+}
+.diachi-right .icon i{
+    color: #fff;
+    padding-left:  5px;
+    
+}
+.diachi-right .icon i:hover{
+    color: aqua;
+}
