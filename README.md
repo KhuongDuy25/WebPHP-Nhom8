@@ -29,6 +29,9 @@ Các mục lớn của trang web
 
   * Danh mục trang quản trị
   ![image](https://github.com/KhuongDuy25/WebPHP-Nhom8/assets/96757580/d31907b7-5f7e-446d-8b75-cb785897e532)
+
+  * Quản lý sản phẩm
+  ![image](https://github.com/KhuongDuy25/WebPHP-Nhom8/assets/96757580/9330c44d-d02e-4f6b-958c-aad87dc40c73)
   
   * Quản lí đơn hàng
   ![image](https://github.com/KhuongDuy25/WebPHP-Nhom8/assets/96757580/23f00450-de97-47d0-87b6-001d6b70b8f2)
