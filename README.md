@@ -10,6 +10,12 @@ Các mục lớn của trang web
   
   1. Trang thông tin dành cho khách hàng.
   2. Trang quản trị dành cho quản trị viên.
+## Thành viên
+Nhóm 08 - K15
+
+  * Nguyễn Văn Khương
+  * Nguyễn Hồng Quảng
+  * Nguyễn Phương Nam
   
 ## Một số hình ảnh
   * Trang Menu
@@ -39,11 +45,4 @@ Các mục lớn của trang web
   * Quản lý doanh thu
   ![image](https://github.com/KhuongDuy25/WebPHP-Nhom8/assets/96757580/031594bf-7c74-46c1-9ec1-3d06bb8d802f)
 
-## Thành viên
-Nhóm 08 - K15
-
-  * Nguyễn Văn Khương
-  * Nguyễn Hồng Quảng
-  * Nguyễn Phương Nam
-  
 #### 2024. Đại học Phenikaa
