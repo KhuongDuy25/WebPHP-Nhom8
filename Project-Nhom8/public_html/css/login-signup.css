@@ -1,0 +1,117 @@
+@import url(/css/breadcrumb.css);
+
+.login-signup-container{
+    color: var(--maincolor-white);
+    padding: 32px 64px 64px 64px;
+    background-image: url('/imgs/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-signup-container .login-form,
+.login-signup-container .signup-form{
+    display: flex;
+    justify-content: center;
+}
+
+.login-signup-container form{
+    background: var(--maincolor-white);
+    color: rgb(58, 58, 58);
+    padding: 32px 64px;
+    border-radius: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 63%;
+}
+
+.login-signup-container form img{
+    width: 240px;
+    height: 60px;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 4px #ccc;
+    cursor: pointer;
+    transition: all .2s;
+    margin: 16px;
+}
+
+.login-signup-container form img:hover{
+    transform: scale(1.02, 1.02);
+    box-shadow: 6px 6px 6px #ccc;
+}
+
+.login-signup-container .field-mess{
+    color: rgba(226, 13, 13, 1);
+    display: none;
+    max-width: 100%;
+}
+
+.login-signup-container form .input-grp{
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.login-signup-container form label{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.login-signup-container form input{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 6px 16px;
+    font-size: inherit;
+    margin-bottom: 8px;
+}
+
+.login-signup-container form h3,
+.login-signup-container form .login-flugin{
+    align-self: center;
+    font-size: 28px;
+}
+
+.login-signup-container form .fonm-option{
+    margin-top: 8px;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+}
+
+form .fonm-option span{
+    margin-right: 8px;
+}
+
+form .fonm-option span.forgetpass{
+    position: relative;
+    left: -100px;
+}
+
+form .fonm-option span:last-child,
+form .fonm-option span.forgetpass{
+    color: rgba(0, 159, 169, 1);
+}
+
+form .fonm-option span:last-child:hover a,
+form .fonm-option span.forgetpass:hover a{
+    color: rgb(4, 216, 231);
+}
+
+.login-signup-container form input[type=submit]{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E14806;
+    color: var(--maincolor-white);
+    display: inline-block;
+    width: 20%;
+    margin: auto;
+    margin-top: 8px;
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+}
+
+.login-signup-container form input[type=submit]:hover{
+    background-color: #f34d06;
+    transform: scale(1.08, 1.08);
+}

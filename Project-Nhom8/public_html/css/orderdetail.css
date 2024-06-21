@@ -1,0 +1,10 @@
+@import url('/css/cart.css');
+
+.orderdetail-container .total{
+    margin-right: 0;
+}
+
+.orderdetail-container .orderdetail-info {
+    display: block !important;
+}
+

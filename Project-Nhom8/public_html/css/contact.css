@@ -1,0 +1,126 @@
+.contact-container{
+    color: var(--maincolor-white);
+    font-size: 20px;
+    background: rgba(0, 0, 0, .3);
+    background: url('/imgs/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 32px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-detail{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 12px;
+}
+
+.contact-detail img:first-child{
+    width: 30%;
+    margin-bottom: 16px;
+}
+
+.contact-detail .brand, 
+.contact-detail .address{
+    margin-bottom: 8px;
+}
+
+.contact-detail .time-info{
+    color: #f0ca20;
+}
+
+.contact-detail .contact-icons{
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.contact-detail .contact-icons li{
+    margin: 8px 16px;
+}
+
+.contact-map{
+    padding: 16px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: var(--maincolor-white);
+    color: #000;
+    margin-top: 16px;
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+.contact-form form span:first-child{
+    text-align: center;
+}
+
+.contact-form form input:not(input[type=submit]),
+.contact-form form textarea{
+    width: 100%;
+    outline: none;
+    border: 2px solid #000;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 4px 8px;
+}
+
+.contact-form form label{
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-form form>div>div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.contact-form form label{
+    flex: 2;
+}
+
+.contact-form form input,
+.contact-form form textarea{
+    flex: 8;
+}
+
+.contact-form form input[type=submit]{
+    padding: 12px 16px;
+    background-color: #E14806;
+    border: none;
+    color: var(--maincolor-white);
+    display: inline-block;
+    max-width: 80px;
+    margin-top: 16px;
+    margin-left: 90%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form form input[type=submit]:hover{
+    background-color: #ff570f;
+}
+
+.field-mess{
+    display: none;
+    margin-left: 20%;
+    margin-top: 4px;
+    color: #ee2709;
+    font-size: 16px;
+    max-width: 100%;
+}

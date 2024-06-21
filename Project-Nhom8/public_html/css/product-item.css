@@ -1,0 +1,81 @@
+@import url('/css/breadcrumb.css');
+
+.product-info{
+    color: var(--maincolor-white);
+    padding: 32px;
+    padding-left: 64px;
+}
+
+.order-btn{
+    display: inline-flex;
+    background-color: #AD4308;
+    cursor: pointer;
+    margin-left: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+.order-btn:hover a{
+    background-color: #d05c1e;
+}
+
+.order-btn a{
+    display: block;
+    padding: 20px 16px;
+}
+
+.product-text{
+    display: flex;
+}
+
+.product-images{
+    flex: 5;
+}
+
+.product-images .main-image img{
+    width: 90%;
+    height: 400px;
+}
+
+.product-detail{
+    flex: 4;
+    margin-left: -8px;
+    font-size: 18px;
+}
+
+.product-detail > div{
+    margin-bottom: 16px;
+}
+
+.product-detail ul.share-icons{
+    display: flex;
+}
+
+.product-detail ul.share-icons>li{
+    margin-left: 16px;
+    font-size: 24px;
+    transition: all .2s;
+}
+
+.product-detail ul.share-icons>li:hover a{
+    color: #a35019;
+}
+
+.other-image{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.other-image a{
+    display: block;
+    width: 30%;
+    padding: 0 4px;
+}
+
+.other-image img{
+    width: 100%;
+    height: 160px;
+}

@@ -1,0 +1,163 @@
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.cart{
+    z-index: 100000;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: rgb(33,37,41);
+    color: #fff;
+    transition: all 0.3s;
+    min-height: 100vh;
+    position: fixed;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: rgb(33,37,41);
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(33,37,41);
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    padding-left: 24px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: rgb(33,37,41);
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: rgb(33,37,41);
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: rgba(55, 59, 63, 0.785);
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+.user-option::after{
+    color: #999;
+    content: "" !important;
+    border: none !important;
+}
+
+header{
+    z-index: 199 !important;
+    position: sticky !important; 
+    top: 0 !important;
+    width: 100%;
+}
+
+.content{
+    margin-left: 250px !important;
+}
+
+.main-content{
+    min-height: 100vh;
+}
+
+.orderstatus-1{
+    color: rgb(255,193,7) !important;
+}
+
+.orderstatus-2{
+    color: rgb(13,110,253) !important;
+}
+
+.orderstatus-3{
+    color: rgb(13,202,240) !important;
+}
+
+.orderstatus-4{
+    color: rgb(25,135,84) !important;
+}
+
+.orderstatus-5{
+    color: rgb(220,53,69) !important;
+}
+
+footer .coppyright{
+    margin-top: 24px;
+    color: inherit;
+    text-align: center;
+    background-color: #d3d1d1;
+    padding: 8px 0;
+}

@@ -1,0 +1,15 @@
+.breadcrumb{
+    margin-left: 64px;
+    margin-bottom: 64px;
+}
+
+.breadcrumb span:not(span:last-child):after{
+    content: "";
+    border-right: solid 2px var(--maincolor-white);
+    margin-left: 8px;
+}
+
+.breadcrumb span:hover a,
+.back-btn:hover a{
+    color: rgb(250, 149, 67);
+}

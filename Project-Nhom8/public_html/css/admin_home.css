@@ -1,0 +1,111 @@
+.content{
+    width: 100%;
+    margin-top: 32px;
+}
+
+.card-header, 
+.card-title{
+    text-align: center;
+    font-size: 24px;
+    color: #fff !important;
+}
+
+.cards{
+    margin-left: 4px;
+}
+
+.card{
+    width: 220px;
+    margin: 8px 8px;
+}
+
+/* ----------- */
+
+.chart-container{
+    width: 48%;
+    text-align: center;
+    margin: 8px;
+}
+
+.form-check-input{
+    opacity: 1 !important;
+}
+
+.charts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.fullwidth-chart{
+    width: 96%;
+}
+
+.scalesmall{
+    transform: scale(.7, .7) translateY(-20%);
+}
+
+/* ----------- */
+
+.admin-prdmanage-container img,
+.admin-order-detail-container img{
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.admin-prdmanage-container button{
+    margin: 4px;
+}
+
+.admin-prdmanage-container button a{
+    padding: 4px 14px!important;
+}
+
+.admin-prdmanage-container .prd-type-fill{
+    display: inline-block;
+    width: 16% !important;
+    margin-left: 8px;
+    margin-right: 16px;
+}
+
+/* --------------------- */
+
+.admin-updateproduct-container form,
+.admin-addproduct-container form{
+    padding: 0 64px !important;
+}
+
+/* ------------ */
+
+.admin-orders-container .ord-status option,
+.admin-order-detail-container .ord-status option{
+    color: initial !important;
+}
+
+.admin-orders-container .addr{
+    max-width: 180px;
+}
+
+.admin-orders-container button a{
+    padding: 4px 14px!important;
+}
+
+/* --------------- */
+.admin-order-detail-container{
+    margin-bottom: 160px;
+}
+
+.admin-order-detail-container .order-info li>span:first-child{
+    display: inline-block;
+    min-width: 240px;
+}
+
+.admin-order-detail-container .order-info{
+    margin-bottom: 16px;
+}
+

@@ -1,0 +1,90 @@
+@import url('/css/cart.css');
+
+.maincart-list-label{
+    min-width: 260px;
+}
+
+.orders-list-item{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.215);
+    padding: 16px 32px;
+    margin: 16px 8px;
+    font-size: 20px;
+    justify-content: space-around;
+    border-radius: 8px;
+    border: 2px double rgba(204, 204, 204, 0.356);
+    transition: all .3s;
+}
+
+.orders-list-item:hover{
+    transform: scale(1.02, 1.02);
+}
+
+.orders-list-item>div:first-child{
+    flex: 4;
+    margin-right: 64px;
+}
+
+.orders-list-item>div:last-child{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-address{
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+.order-label{
+    display: inline-block;
+    width: 30%;
+}
+
+.order-time,
+.order-detail-btn{
+    margin-bottom: 8px;
+}
+
+.order-detail-btn{
+    cursor: pointer;
+    color: rgba(239, 164, 52, 0.934);
+}
+
+.order-deleting-btn input{
+    cursor: pointer;
+    color: rgba(239, 52, 52, 0.934) !important;
+    border: none !important;
+    background: none !important;
+    font-size: inherit !important;
+}
+
+.order-detail-btn:hover,
+.order-deleting-btn:hover{
+    transform: scale(1.1, 1.1);
+    text-align: center;
+}
+
+.order-time{
+    color: rgb(196, 130, 130);
+}
+
+.order-time .order-label{
+    color: var(--maincolor-white);
+}
+
+.order-time .time{
+    margin-left: 16px;
+}
+
+.orders-list-container{
+    min-height: 200px;
+}
+
+.no-order{
+    display: block;
+    text-align: center;
+    margin-top: 36px;
+}

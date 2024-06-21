@@ -1,0 +1,190 @@
+h3.page-title{
+    display: block;
+    padding: 12px 0;
+    color: var(--maincolor-white);
+    background-color: #343434;
+    text-align: center;
+}
+
+.product-menu{
+    /* height: 1000px; */
+    margin: 16px 32px;
+}
+
+.labels ul{
+    display: flex;
+}
+
+.labels ul>li{
+    color: var(--maincolor-white);
+    border-radius: 16px 16px 0 0;
+    background-color: #2F2D2D;
+    padding-bottom: 0;
+    opacity: .5;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.labels ul>li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    padding-right: 16px;
+    position: relative;
+}
+
+.labels ul>li img{
+    width: 50px;
+    height: 50px;
+    transform: translateY(-4px);
+}
+
+.labels ul>li.labels-active{
+    opacity: 1;
+}
+
+.products-content{
+    background-color: #2F2D2D;
+    padding-bottom: 32px;
+    z-index: 99999;
+}
+
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 16px;
+}
+
+.products-list-item{
+    width: 25%;
+    margin: 16px 0;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.products-card{
+    background-color: rgba(35, 33, 33, .74);
+    height: 260px;
+    width: 100%;
+    margin: auto;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.products-card:hover::after{
+    content: "Xem sản phẩm";
+    padding: 16px 32px;
+    z-index: 999999;
+    background-color: rgba(129, 44, 11, 0.7);
+    color: var(--maincolor-white);
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:40%;
+    transition: all .3s;
+}
+
+.product-img{
+    height: 80%;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.product-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.products-card p{
+    color: var(--maincolor-white);
+    margin-top: 4px;
+    text-align: center;
+}
+
+.pagination{
+    display: flex;
+    font-size: 20px;
+    color: var(--maincolor-white);
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.pagination-item{
+    padding: 12px 18px;
+    margin: 0 16px;
+    background-color: rgba(211, 207, 207, .6);
+}
+
+.pagination-item.pagination-active{
+    background-color: #D06321;
+}
+
+.pagination-item.pagination-disable{
+    opacity: .5;
+}
+
+.pagination-previous,
+.pagination-next{
+    background-color: rgba(9, 9, 9, 0.6);
+}
+
+.products-adv{
+    display: block;
+    padding: 16px 0;
+    width: calc(100vw - 17px);
+    margin-left: -32px;
+    margin-top: 32px;
+    background-color: #1F1B1B;
+    color: var(--maincolor-white);
+    position: relative;
+    padding-left: 64px;
+}
+
+.products-adv::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 65%;
+    left: 10px;
+    border: solid;
+    border-width: 32px;
+    border-color: #000 transparent transparent transparent;
+    z-index: -99999;
+    transform: rotateZ(-30deg);
+}
+
+.adv-slides{
+    color: var(--maincolor-white);
+    font-size: 22px;
+    display: flex;
+    overflow: hidden;
+}
+
+.adv-slides .adv-slides-item{
+    margin: 64px 0 32px 15%;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.adv-slides .adv-slides-item img{
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.adv-slides .adv-item-text{
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 32px;
+}

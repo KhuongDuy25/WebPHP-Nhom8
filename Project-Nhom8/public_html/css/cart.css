@@ -1,0 +1,207 @@
+@import url('/css/breadcrumb.css');
+
+.maincart-container{
+    color: var(--maincolor-white);
+}
+
+.maincart-container{
+    margin: 32px 64px 32px;
+}
+
+
+.label .maincart-list-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--maincolor-white);
+    border-radius: 16px 16px 0 0;
+    background-color: #2F2D2D;
+    padding-right: 32px;
+    cursor: pointer;
+    max-width: 190px;
+}
+
+.maincart-list-container{
+    background-color: #2F2D2D;
+    padding: 32px;
+}
+
+.maincart-list-container img.nomaincart{
+    display: none;
+    width: 50%;
+    margin-top: 16px;
+    margin: auto;
+}
+
+.maincart-list-container .product-btn{
+    display: none;
+    padding: 8px 16px;
+    background-color: rgb(190, 93, 12);
+    font-size: 20px;
+    text-align: center;
+    width: 180px;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.maincart-list-item{
+    display: flex;
+    background-color: rgba(0, 0, 0, .47);
+    padding: 16px 32px;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    height: 140px;
+}
+
+
+.maincart-list-item img{
+    display: block;
+    min-width: 140px;
+    max-width: 140px;
+    height: 100%;
+}
+
+.maincart-list-item-name,
+.maincart-list-item-quantity b,
+.maincart-list-item-price>div:first-child{
+    display: block;
+    margin-bottom: 16px;
+}
+
+.maincart-list-item-quantity,
+.maincart-list-item-price{
+    margin-left: 120px;
+}
+
+.maincart-list-item-deleting{
+    margin-left: 140px;
+    width:30px;
+    align-self: center;
+    display: block;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: all .3s;
+    text-align: center;
+}
+
+.maincart-list-item-deleting:hover{
+    font-size: 28px;
+    color: rgb(243, 50, 50);
+}
+
+.maincart-info{
+    display: none;
+}
+
+.maincart-info{
+    margin-top: 32px;
+}
+
+.maincart-info .vouchers{
+    display: flex;
+}
+
+.maincart-info .vouchers input{
+    border: none;
+    outline: none;
+    text-align: center;
+    background: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--maincolor-white);
+    width: 200px;
+}
+
+.maincart-info .vouchers span,
+.maincart-info .vouchers input,
+.total span{
+    display: block;
+    padding: 8px 16px;
+    border: solid 1px #fff;
+}
+
+.apply-btn,
+.pay-btn{
+    cursor: pointer !important;
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    background: rgb(196, 142, 34) !important;
+    transition: all .2s !important;
+    outline: none !important;
+    border: none !important;
+    color: var(--maincolor-white);
+}
+
+.apply-btn:hover,
+.pay-btn:hover{
+    background: rgb(218, 161, 45) !important;
+}
+
+.apply-btn{
+    margin-left: 32px;   
+}
+
+.pay-btn{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.maincart-info ul>li{
+    padding: 18px 32px;
+    background-color: #4a4949;
+    display: flex;
+    justify-content: space-between;
+}
+
+.maincart-info ul>li:hover{
+   background-color: #706e6e;
+}
+
+
+.total{
+    display: flex;
+    margin-right: 36px;
+}
+
+.total span:last-child{
+    width: 200px;
+    text-align: center;
+}
+
+.pay-option{
+    align-items: center;
+}
+
+.pay-option>div{
+    display: flex;
+}
+
+.pay-option input.addr-input,
+.pay-option select{
+    display: block;
+    border: 1px solid var(--maincolor-white);
+    outline: none;
+    padding: 8px 16px;
+    background-color: transparent;
+    color: var(--maincolor-white);
+    margin-right: 26px;
+    font-size: 16px;
+}
+
+.pay-option label{
+    display: block;
+    border: 1px solid var(--maincolor-white);
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.pay-option select{
+    cursor: pointer;
+}
+
+.pay-option select option {
+    background-color: var(--maincolor-brown);
+    padding: 8px;
+
+}
